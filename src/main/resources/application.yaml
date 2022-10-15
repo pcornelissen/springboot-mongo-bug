@@ -1,0 +1,30 @@
+
+spring:
+  application:
+    name: broken
+  data:
+    mongodb:
+      auto-index-creation: true
+      database: broken
+      host: localhost
+      username: root
+      password: s3cr3t
+      uuid-representation: standard
+      authentication-database: admin
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+  port: 7080
+management:
+  server:
+    port: 7088
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: "*"
