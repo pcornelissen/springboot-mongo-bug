@@ -11,6 +11,7 @@ spring:
       password: s3cr3t
       uuid-representation: standard
       authentication-database: admin
+      port: 37017
   jackson:
     deserialization:
       fail-on-unknown-properties: false

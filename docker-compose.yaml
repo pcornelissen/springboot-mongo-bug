@@ -17,4 +17,4 @@ services:
     environment:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
       ME_CONFIG_MONGODB_ADMINPASSWORD: s3cr3t
-      ME_CONFIG_MONGODB_URL: mongodb://root:s3cr3t@mongo:37017/
+      ME_CONFIG_MONGODB_URL: mongodb://root:s3cr3t@mongo:27017/
